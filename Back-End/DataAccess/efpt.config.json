@@ -1,0 +1,574 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "DBDKContextDefault",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "DataAccess",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[AccionesTerapeuticas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Archivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetRoleClaims]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetRolesPerfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUserClaims]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUserLogins]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUserRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUsersPerfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AspNetUserTokens]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuditoriaDeTablas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuditoriaEstadoLab]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuditoriaEstadoProv]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CategoriasClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CategoriasComerciales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CategoriasMonotributo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Clientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClientesFarmacias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ClientesResponsabilidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CobrosEncomiendas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeIVA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeVentasEspeciales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeVentasEspecialesBonificaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeVentasEspecialesClientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeVentasEspecialesProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionesDeVentasEspecialesProductosBonificaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondicionMunicipalidad]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondImpGanancia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondIngresosBrutos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondMunicipalidadCB]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondVentEspTipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondVentEspTipoCantRenglones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondVentEspTipoCantUnidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondVentEspTipoDesc]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CondVentEspTipoPrecio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConvMultIngBrutosFarmaciasProvincias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentasCorrientes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CuentasResumenes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DevolucionProv]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiasHorariosCierre]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dispensas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Drogas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Empleados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estados]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EstadosLaboratorio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Familias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Farmacias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FarmaciasArchivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fletes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FormasEnvio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpMunicipalProv]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpNacionalProv]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpProvincialProv]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpProvincialProv_Cordoba]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpProvincialProv_EntreRios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpProvincialProv_SantaFe]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestosLaboratorio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestosMunicipalesFarmacias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestosNacionalesFarmacias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ImpuestosProvincialesFarmacias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Laboratorios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LaboratoriosProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LaboratoriosProveedoresObrasSociales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ListasDePrecios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ListasDePreciosItems]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Localidades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Menu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MotivosAlicuotasIngBrutos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Numeradores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OfertasMensuales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OfertasMensualesProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Parametros]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Perfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PeríodosPedido]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlanesObrasSociales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlazosDePago]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Productos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosCategorias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosCategoriasAlmacenamiento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosCodigosBarra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosCompras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosDeposito]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosDescuentosProveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosEstadosTrazables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosFormasFarmaceuticas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosHistoricoPreciosCostos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosHistoricoPreciosCostosVH]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosMarcas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosNovedades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosOrigenes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosOrigenesPrecios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosPeriodosRestVenFarm]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosPrecios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosTemporadas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosTipos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosTiposVentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosUbicaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosUbicacionesPicking]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductosVentas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Promotores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Proveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedoresArchivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedoresTiposDeCompra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedoresVencimientos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProveedoresVencimientosHistorico]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Provincias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVenta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVentaCategorias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVentaContactos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVentaPlanesObrasSociales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVentaRepartosAlternativos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PuntosDeVentaSucursalesAlternativas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReglasImpositivas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Repartos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RetencionesProvSegLimpieza]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RolMenu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RubrosCompras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Stock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StockSucursales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SucursalesDrogueria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tablas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TablasPerfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposCargos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeArchivos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeCliente]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeClienteInterno]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeCompras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeDocumentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TiposDeVencimientos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ZonasCadeteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SetUsersInRoles]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "SQLTEST1.DBDK",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
